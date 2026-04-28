@@ -1,3 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
 
 @import 'tailwindcss';
+
+@theme {
+    --color-regal-blue: #243c5a; 
+}
+
+@font-face {
+  font-family: Charcoal;
+  src: url('/assets/fonts/Charcoal.woff2') format('woff2');
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  font-family: Charcoal,Helvetica,Arial,sans-serif;
+}

@@ -44,6 +44,8 @@ Thumbs.db
 
 *storybook.log
 storybook-static
+# Compodoc generated documentation
+documentation.json
 
 # Local Netlify folder
 .netlify

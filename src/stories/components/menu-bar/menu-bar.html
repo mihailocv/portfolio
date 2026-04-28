@@ -1,0 +1,16 @@
+<div class="bg-black w-full h-7.5">
+  <div class="bg-[#dddddd] w-full h-7.5 rounded-t-xl border-b-[1.5px] border-black">
+    <div class="flex items-center h-full ml-3.5 select-none">
+      <div class="h-full pt-0.75 px-2.5 hover:bg-[#333399] cursor-pointer">
+        <img src="/assets/img/menu-bar/apple-logo.png" alt="Apple Logo" class="block w-5.5 h-5.5" />
+      </div>
+      @for (item of menuItems(); track item.label) {
+        <div
+          class="h-full flex items-center px-2.5 text-lg hover:bg-[#333399] hover:text-white cursor-pointer"
+        >
+          {{ item.label }}
+        </div>
+      }
+    </div>
+  </div>
+</div>
